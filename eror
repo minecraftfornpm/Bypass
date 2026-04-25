@@ -1,0 +1,3014 @@
+[2026-04-25 14:29:04.948 Uid(value=10768):4900:4921 F/libc]
+Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x77aab61fc0 in tid 4921 (DefaultDispatch), pid 4900 (com.arlen.app)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Processor: '7'
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Timestamp: 2026-04-25 14:29:05.279512927+0400
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Process uptime: 2s
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+pid: 4900, tid: 4921, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+uid: 10768
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x00000077aab61fc0
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+Cause: stack pointer is close to top of stack; likely stack overflow.
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x0  00000078a675a339  x1  00000078a675a339  x2  0000000000000000  x3  00000077aebae14c
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x4  00000077aab62178  x5  00000078a3d18020  x6  0000000080260814  x7  2e6362696c007465
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x8  671462b900b37049  x9  671462b900b37049  x10 0000000000000000  x11 0000000000001339
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x12 0000000000000000  x13 00000077aebad4b0  x14 0000000000000018  x15 0000007889ab3e48
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x16 0000007874011140  x17 00000078a67d5da0  x18 00000076bcd54000  x19 0000000000002fa1
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x20 00000078a675a339  x21 00000077aebada20  x22 00000077aebae14c  x23 00000077aaf65740
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x24 c768bf443026c5b3  x25 00000077aaf648d8  x26 0000000000000000  x27 0000000000000008
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    x28 00000077aebada20  x29 00000077aab62010
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+    lr  00000078a682742c  sp  00000077aab62000  pc  00000078a6827500  pst 0000000000001000
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+512 total frames
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+backtrace:
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+      #00 pc 00000000000d5500  /apex/com.android.runtime/bin/linker64 (__dl__ZL12should_tracev+0) (BuildId: 60fdf1e5b0efdd3d0b668c43bde65b82)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+      #01 pc 00000000000d5428  /apex/com.android.runtime/bin/linker64 (__dl__ZL20trace_begin_internalPKc+40) (BuildId: 60fdf1e5b0efdd3d0b668c43bde65b82)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+      #02 pc 000000000004c2c0  /apex/com.android.runtime/bin/linker64 (__dl__ZN11ScopedTraceC1EPKc+48) (BuildId: 60fdf1e5b0efdd3d0b668c43bde65b82)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+      #03 pc 0000000000060a14  /apex/com.android.runtime/bin/linker64 (__dl__Z8do_dlsymPvPKcS1_PKvPS_+68) (BuildId: 60fdf1e5b0efdd3d0b668c43bde65b82)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+      #04 pc 000000000004d574  /apex/com.android.runtime/bin/linker64 (__dl__Z10dlsym_implPvPKcS1_PKv+84) (BuildId: 60fdf1e5b0efdd3d0b668c43bde65b82)
+
+[2026-04-25 14:29:07.227 Uid(value=10768):4949:4949 F/DEBUG]
+      #05 pc 0000000000004070  /apex/com.android.runtime/lib64/bionic/libdl.so (dlsym+16) (BuildId: 62191add85d208fb633566dc8a024a05)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #06 pc 0000000000001148  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+104)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #07 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #08 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #09 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #10 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #11 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #12 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #13 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #14 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #15 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #16 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #17 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #18 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #19 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #20 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #21 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #22 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #23 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #24 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #25 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #26 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #27 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #28 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #29 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #30 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #31 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #32 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #33 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #34 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.228 Uid(value=10768):4949:4949 F/DEBUG]
+      #35 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #36 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #37 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #38 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #39 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #40 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #41 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #42 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #43 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #44 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #45 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #46 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #47 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #48 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #49 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #50 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #51 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #52 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #53 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #54 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #55 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #56 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #57 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #58 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #59 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #60 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #61 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #62 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #63 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #64 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #65 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #66 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #67 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #68 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #69 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #70 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #71 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #72 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #73 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #74 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #75 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #76 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #77 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #78 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #79 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #80 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #81 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #82 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #83 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #84 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #85 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #86 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #87 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #88 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #89 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #90 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #91 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #92 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.229 Uid(value=10768):4949:4949 F/DEBUG]
+      #93 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #94 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #95 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #96 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #97 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #98 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #99 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #100 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #101 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #102 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #103 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #104 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #105 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #106 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #107 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #108 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #109 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #110 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #111 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #112 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #113 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #114 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #115 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #116 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #117 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #118 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #119 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #120 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #121 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #122 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #123 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #124 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #125 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #126 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #127 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #128 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #129 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #130 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #131 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #132 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #133 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #134 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #135 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #136 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #137 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #138 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #139 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #140 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #141 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #142 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #143 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #144 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #145 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #146 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #147 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #148 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #149 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #150 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #151 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #152 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #153 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #154 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #155 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #156 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.230 Uid(value=10768):4949:4949 F/DEBUG]
+      #157 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #158 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #159 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #160 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #161 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #162 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #163 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #164 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #165 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #166 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #167 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #168 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #169 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #170 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #171 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #172 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #173 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #174 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #175 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #176 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #177 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #178 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #179 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #180 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #181 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #182 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #183 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #184 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #185 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #186 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #187 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #188 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #189 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #190 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #191 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #192 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #193 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #194 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #195 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #196 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #197 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #198 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #199 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.231 Uid(value=10768):4949:4949 F/DEBUG]
+      #200 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 I/liblog]
+65
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 I/liblog]
+2
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 I/liblog]
+2
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #270 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #271 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #272 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #273 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #274 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #275 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #276 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #277 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #278 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #279 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #280 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.232 Uid(value=10768):4949:4949 F/DEBUG]
+      #281 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.233 Uid(value=10768):4949:4949 F/DEBUG]
+      #282 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.233 Uid(value=10768):4949:4949 F/DEBUG]
+      #283 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.233 Uid(value=10768):4949:4949 F/DEBUG]
+      #284 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.233 Uid(value=10768):4949:4949 F/DEBUG]
+      #285 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.233 Uid(value=10768):4949:4949 F/DEBUG]
+      #286 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.233 Uid(value=10768):4949:4949 F/DEBUG]
+      #287 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 I/liblog]
+199
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 I/liblog]
+2
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #489 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #490 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #491 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #492 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #493 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #494 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.236 Uid(value=10768):4949:4949 F/DEBUG]
+      #495 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #496 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #497 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #498 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #499 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #500 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #501 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #502 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:07.237 Uid(value=10768):4949:4949 F/DEBUG]
+      #503 pc 0000000000001170  /data/app/~~brPuDiMWIw99FMOhseqBZA==/com.arlen.app-UHEu6f0BE9ZO9BabmP97Dw==/lib/arm64/libarlen-sec.so (Java_com_arlen_app_s_NativeBridge_nativeIssueRuntimeTicket+144)
+
+[2026-04-25 14:29:33.407 Uid(value=10768):5397:5397 I/wm_on_create_called]
+[82507529,com.arlen.app.activity.MainActivity,performCreate,87]
+
+[2026-04-25 14:29:33.408 Uid(value=10768):5397:5397 I/wm_on_start_called]
+[82507529,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 14:29:33.415 Uid(value=10768):5397:5397 I/wm_on_resume_called]
+[82507529,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,5]
+
+[2026-04-25 14:29:33.458 Uid(value=10768):5397:5397 I/wm_on_top_resumed_gained_called]
+[82507529,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 14:29:33.458 Uid(value=10768):5397:5397 I/wm_on_top_resumed_lost_called]
+[82507529,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 14:29:33.459 Uid(value=10768):5397:5397 I/wm_on_paused_called]
+[82507529,com.arlen.app.activity.MainActivity,performPause,0]
+
+[2026-04-25 14:29:33.811 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+
+[2026-04-25 14:29:33.911 Uid(value=10768):5397:5397 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 14:29:34.056 Uid(value=10768):5397:5541 E/AndroidRuntime]
+FATAL EXCEPTION: pool-6-thread-1
+Process: com.arlen.app, PID: 5397
+java.lang.NoSuchMethodError: No static method getPackageInfo(Landroid/content/pm/PackageManager;Ljava/lang/String;I)Landroid/content/pm/PackageInfo; in class Landroid/content/pm/PackageManager; or its super classes (declaration of 'android.content.pm.PackageManager' appears in /system/framework/framework.jar)
+	at p4.f.t(r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:38)
+	at p4.g.run(r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:256)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+
+[2026-04-25 14:29:35.113 Uid(value=10768):5397:5397 I/wm_on_stop_called]
+[82507529,com.arlen.app.activity.MainActivity,STOP_ACTIVITY_ITEM,1]
+
+[2026-04-25 14:29:36.955 Uid(value=10768):5397:5397 I/wm_on_restart_called]
+[82507529,com.arlen.app.activity.MainActivity,performRestart,0]
+
+[2026-04-25 14:29:36.957 Uid(value=10768):5397:5397 I/wm_on_start_called]
+[82507529,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 14:29:36.969 Uid(value=10768):5397:5397 I/wm_on_resume_called]
+[82507529,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,10]
+
+[2026-04-25 14:29:36.970 Uid(value=10768):5397:5397 I/wm_on_top_resumed_gained_called]
+[82507529,com.arlen.app.activity.MainActivity,topWhenResuming]
+
+[2026-04-25 14:29:37.005 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Start draw after previous draw not visible]
+
+[2026-04-25 14:29:37.198 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,reportDrawFinished seqId=0]
+
+[2026-04-25 14:29:37.201 Uid(value=10768):5397:5397 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 14:29:38.441 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@6ae1342,reportDrawFinished seqId=0]
+
+[2026-04-25 14:29:40.955 Uid(value=10768):5397:5397 I/view_enqueue_input_event]
+[Motion - Cancel,com.arlen.app/com.arlen.app.activity.MainActivity]
+
+[2026-04-25 14:29:40.981 Uid(value=10768):5397:5397 I/wm_on_top_resumed_lost_called]
+[82507529,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 14:29:42.077 Uid(value=10768):5397:5397 I/wm_on_paused_called]
+[82507529,com.arlen.app.activity.MainActivity,performPause,0]
+
+[2026-04-25 14:29:42.300 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+
+[2026-04-25 14:29:42.308 Uid(value=10768):5397:5397 I/wm_on_stop_called]
+[82507529,com.arlen.app.activity.MainActivity,STOP_ACTIVITY_ITEM,1]
+
+[2026-04-25 14:32:14.060 Uid(value=10768):5397:5397 I/wm_on_restart_called]
+[82507529,com.arlen.app.activity.MainActivity,performRestart,0]
+
+[2026-04-25 14:32:14.063 Uid(value=10768):5397:5397 I/wm_on_start_called]
+[82507529,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 14:32:14.075 Uid(value=10768):5397:5397 I/wm_on_resume_called]
+[82507529,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,11]
+
+[2026-04-25 14:32:14.075 Uid(value=10768):5397:5397 I/wm_on_top_resumed_gained_called]
+[82507529,com.arlen.app.activity.MainActivity,topWhenResuming]
+
+[2026-04-25 14:32:14.094 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Start draw after previous draw not visible]
+
+[2026-04-25 14:32:14.122 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,reportDrawFinished seqId=0]
+
+[2026-04-25 14:32:14.125 Uid(value=10768):5397:5397 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 14:32:14.317 Uid(value=10768):5397:5397 I/wm_on_top_resumed_lost_called]
+[82507529,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 14:32:14.371 Uid(value=10768):5397:5397 I/view_enqueue_input_event]
+[Motion - Cancel,com.arlen.app/com.arlen.app.activity.MainActivity]
+
+[2026-04-25 14:32:15.476 Uid(value=10768):5397:5397 I/wm_on_paused_called]
+[82507529,com.arlen.app.activity.MainActivity,performPause,0]
+
+[2026-04-25 14:32:15.675 Uid(value=10768):5397:5397 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+
+[2026-04-25 14:32:15.687 Uid(value=10768):5397:5397 I/wm_on_stop_called]
+[82507529,com.arlen.app.activity.MainActivity,STOP_ACTIVITY_ITEM,0]
+
+[2026-04-25 16:08:42.164 Uid(value=10768):21598:21598 I/wm_on_create_called]
+[103522240,com.arlen.app.activity.MainActivity,performCreate,81]
+
+[2026-04-25 16:08:42.170 Uid(value=10768):21598:21598 I/wm_on_start_called]
+[103522240,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:08:42.186 Uid(value=10768):21598:21598 I/wm_on_resume_called]
+[103522240,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,14]
+
+[2026-04-25 16:08:42.271 Uid(value=10768):21598:21598 I/wm_on_top_resumed_gained_called]
+[103522240,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:08:42.599 Uid(value=10768):21598:21598 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,reportDrawFinished seqId=0]
+
+[2026-04-25 16:08:43.476 Uid(value=10768):21598:21598 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:08:45.233 Uid(value=10768):21598:21598 I/view_enqueue_input_event]
+[Motion - Cancel,com.arlen.app/com.arlen.app.activity.MainActivity]
+
+[2026-04-25 16:08:45.246 Uid(value=10768):21598:21598 I/wm_on_top_resumed_lost_called]
+[103522240,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:08:46.162 Uid(value=10768):21598:21598 I/wm_on_paused_called]
+[103522240,com.arlen.app.activity.MainActivity,performPause,2]
+
+[2026-04-25 16:08:47.324 Uid(value=10768):21598:21871 E/AndroidRuntime]
+FATAL EXCEPTION: pool-6-thread-1
+Process: com.arlen.app, PID: 21598
+java.lang.NoSuchMethodError: No static method getPackageInfo(Landroid/content/pm/PackageManager;Ljava/lang/String;I)Landroid/content/pm/PackageInfo; in class Landroid/content/pm/PackageManager; or its super classes (declaration of 'android.content.pm.PackageManager' appears in /system/framework/framework.jar)
+	at p4.f.t(r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:38)
+	at p4.g.run(r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:256)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1564)
+
+[2026-04-25 16:08:47.573 Uid(value=10768):21598:21598 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+
+[2026-04-25 16:08:47.588 Uid(value=10768):21598:21598 I/wm_on_stop_called]
+[103522240,com.arlen.app.activity.MainActivity,STOP_ACTIVITY_ITEM,1]
+
+[2026-04-25 16:08:57.176 Uid(value=10768):21598:21598 I/wm_on_restart_called]
+[103522240,com.arlen.app.activity.MainActivity,performRestart,0]
+
+[2026-04-25 16:08:57.176 Uid(value=10768):21598:21598 I/wm_on_start_called]
+[103522240,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:08:57.196 Uid(value=10768):21598:21598 I/wm_on_resume_called]
+[103522240,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,17]
+
+[2026-04-25 16:08:57.198 Uid(value=10768):21598:21598 I/wm_on_top_resumed_gained_called]
+[103522240,com.arlen.app.activity.MainActivity,topWhenResuming]
+
+[2026-04-25 16:08:57.223 Uid(value=10768):21598:21598 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Start draw after previous draw not visible]
+
+[2026-04-25 16:08:57.267 Uid(value=10768):21598:21598 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,reportDrawFinished seqId=0]
+
+[2026-04-25 16:08:57.270 Uid(value=10768):21598:21598 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:08:58.183 Uid(value=10768):21598:21598 I/wm_on_top_resumed_lost_called]
+[103522240,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:08:58.186 Uid(value=10768):21598:21598 I/wm_on_paused_called]
+[103522240,com.arlen.app.activity.MainActivity,performPause,0]
+
+[2026-04-25 16:08:58.362 Uid(value=10768):21598:21598 I/viewroot_draw_event]
+[VRI[MainActivity]@3e4c183,Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+
+[2026-04-25 16:08:58.367 Uid(value=10768):21598:21598 I/wm_on_stop_called]
+[103522240,com.arlen.app.activity.MainActivity,STOP_ACTIVITY_ITEM,0]
+
+[2026-04-25 16:16:00.639 Uid(value=10768):25818:25818 I/wm_on_create_called]
+[52173384,com.arlen.app.activity.MainActivity,performCreate,55]
+
+[2026-04-25 16:16:00.640 Uid(value=10768):25818:25818 I/wm_on_start_called]
+[52173384,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:16:00.646 Uid(value=10768):25818:25818 I/wm_on_resume_called]
+[52173384,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,4]
+
+[2026-04-25 16:16:00.686 Uid(value=10768):25818:25818 I/wm_on_top_resumed_gained_called]
+[52173384,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:16:00.926 Uid(value=10768):25818:25818 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:16:00.982 Uid(value=10768):25818:25818 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:16:00.989 Uid(value=10768):25818:25818 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:16:02.481 Uid(value=10768):25818:25818 I/wm_on_top_resumed_lost_called]
+[52173384,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:16:02.557 Uid(value=10768):25818:25835 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aeb9ec6c in tid 25835 (DefaultDispatch), pid 25818 (com.arlen.app)
+
+[2026-04-25 16:16:02.598 Uid(value=10768):25818:25818 I/view_enqueue_input_event]
+[Motion - Cancel,com.arlen.app/com.arlen.app.activity.MainActivity]
+
+[2026-04-25 16:16:03.535 Uid(value=10768):25818:25818 I/wm_on_paused_called]
+[52173384,com.arlen.app.activity.MainActivity,performPause,0]
+
+[2026-04-25 16:16:03.742 Uid(value=10768):25818:25818 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,Not drawing due to not visible. Reason=!mAppVisible && !mForceDecorViewVisibility]
+
+[2026-04-25 16:16:03.750 Uid(value=10768):25818:25818 I/wm_on_stop_called]
+[52173384,com.arlen.app.activity.MainActivity,STOP_ACTIVITY_ITEM,1]
+
+[2026-04-25 16:16:05.130 Uid(value=10768):25890:25890 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:16:05.130 Uid(value=10768):25890:25890 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+Processor: '5'
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+Timestamp: 2026-04-25 16:16:02.876072617+0400
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+Process uptime: 4s
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+pid: 25818, tid: 25835, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:16:05.131 Uid(value=10768):25890:25890 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:16:05.132 Uid(value=10768):25890:25890 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:16:05.132 Uid(value=10768):25890:25890 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aeb9ec6c
+
+[2026-04-25 16:16:05.132 Uid(value=10768):25890:25890 F/DEBUG]
+    x0  0000000000000001  x1  00000077aeb96ae0  x2  0000000000000004  x3  0020aa3390dab7c0
+
+[2026-04-25 16:16:05.132 Uid(value=10768):25890:25890 F/DEBUG]
+    x4  0000000008ee3d04  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:16:05.132 Uid(value=10768):25890:25890 F/DEBUG]
+    x8  8421b3e37322bc7a  x9  8421b3e37322bc7a  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:16:05.132 Uid(value=10768):25890:25890 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ee3d04  x14 00000501613593b4  x15 000000004cec4ec5
+
+[2026-04-25 16:16:05.133 Uid(value=10768):25890:25890 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076b9be8000  x19 00000077aeb983c0
+
+[2026-04-25 16:16:05.133 Uid(value=10768):25890:25890 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aeb983c0  x22 00000000000064e7  x23 00000000000064da
+
+[2026-04-25 16:16:05.133 Uid(value=10768):25890:25890 F/DEBUG]
+    x24 00000077aeb983c0  x25 00000077aeb983c0  x26 00000077aeb98728  x27 00000077aeb98780
+
+[2026-04-25 16:16:05.133 Uid(value=10768):25890:25890 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aeb98350
+
+[2026-04-25 16:16:05.133 Uid(value=10768):25890:25890 F/DEBUG]
+    lr  00000077aeb9ec6c  sp  00000077aeb98340  pc  00000077aeb9ec6c  pst 0000000060001000
+
+[2026-04-25 16:16:05.133 Uid(value=10768):25890:25890 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:16:05.134 Uid(value=10768):25890:25890 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:16:05.134 Uid(value=10768):25890:25890 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:16:05.135 Uid(value=10768):25890:25890 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:16:05.135 Uid(value=10768):25890:25890 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:16:14.531 Uid(value=10768):26011:26011 I/wm_on_create_called]
+[54622219,com.arlen.app.activity.MainActivity,performCreate,27]
+
+[2026-04-25 16:16:14.533 Uid(value=10768):26011:26011 I/wm_on_start_called]
+[54622219,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:16:14.537 Uid(value=10768):26011:26011 I/wm_on_resume_called]
+[54622219,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,3]
+
+[2026-04-25 16:16:14.559 Uid(value=10768):26011:26011 I/wm_on_top_resumed_gained_called]
+[54622219,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:16:14.708 Uid(value=10768):26011:26011 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:16:14.758 Uid(value=10768):26011:26011 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:16:15.933 Uid(value=10768):26011:26011 I/viewroot_draw_event]
+[VRI[MainActivity]@d33709f,reportDrawFinished seqId=0]
+
+[2026-04-25 16:16:16.478 Uid(value=10768):26011:26026 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aebc1c6c in tid 26026 (DefaultDispatch), pid 26011 (com.arlen.app)
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+Processor: '7'
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+Timestamp: 2026-04-25 16:16:16.578252002+0400
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+Process uptime: 3s
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+pid: 26011, tid: 26026, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aebc1c6c
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x0  0000000000000001  x1  00000077aebb9ae0  x2  0000000000000004  x3  001c5f9191af3e00
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x4  0000000008ee5838  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x8  b78edfe0a002f43a  x9  b78edfe0a002f43a  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ee5838  x14 000005016bffd4d0  x15 000000004cec4ec5
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076baa94000  x19 00000077aebbb3c0
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aebbb3c0  x22 00000000000065a8  x23 000000000000659b
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x24 00000077aebbb3c0  x25 00000077aebbb3c0  x26 00000077aebbb728  x27 00000077aebbb780
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aebbb350
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+    lr  00000077aebc1c6c  sp  00000077aebbb340  pc  00000077aebc1c6c  pst 0000000060001000
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:16:16.889 Uid(value=10768):26069:26069 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:43.793 Uid(value=10768):26538:26538 I/wm_on_create_called]
+[45606073,com.arlen.app.activity.MainActivity,performCreate,40]
+
+[2026-04-25 16:17:43.795 Uid(value=10768):26538:26538 I/wm_on_start_called]
+[45606073,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:17:43.803 Uid(value=10768):26538:26538 I/wm_on_resume_called]
+[45606073,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,7]
+
+[2026-04-25 16:17:43.839 Uid(value=10768):26538:26538 I/wm_on_top_resumed_gained_called]
+[45606073,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:17:44.058 Uid(value=10768):26538:26538 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:44.125 Uid(value=10768):26538:26538 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:44.131 Uid(value=10768):26538:26538 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:17:45.464 Uid(value=10768):26538:26538 I/viewroot_draw_event]
+[VRI[MainActivity]@41d2316,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:45.733 Uid(value=10768):26538:26554 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aec88c6c in tid 26554 (DefaultDispatch), pid 26538 (com.arlen.app)
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+Processor: '5'
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+Timestamp: 2026-04-25 16:17:45.819244008+0400
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+Process uptime: 3s
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+pid: 26538, tid: 26554, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aec88c6c
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x0  0000000000000001  x1  00000077aec80ae0  x2  0000000000000004  x3  002b64c897011ea0
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x4  0000000008ef068a  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x8  cc4101c3b2e3f7c1  x9  cc4101c3b2e3f7c1  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ef068a  x14 00000501b128bd50  x15 000000004cec4ec5
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076ba40c000  x19 00000077aec823c0
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aec823c0  x22 00000000000067b6  x23 00000000000067aa
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x24 00000077aec823c0  x25 00000077aec823c0  x26 00000077aec82728  x27 00000077aec82780
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aec82350
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+    lr  00000077aec88c6c  sp  00000077aec82340  pc  00000077aec88c6c  pst 0000000060001000
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:46.101 Uid(value=10768):26624:26624 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:47.572 Uid(value=10768):26672:26672 I/wm_on_create_called]
+[250478172,com.arlen.app.activity.MainActivity,performCreate,30]
+
+[2026-04-25 16:17:47.573 Uid(value=10768):26672:26672 I/wm_on_start_called]
+[250478172,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:17:47.579 Uid(value=10768):26672:26672 I/wm_on_resume_called]
+[250478172,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,4]
+
+[2026-04-25 16:17:47.608 Uid(value=10768):26672:26672 I/wm_on_top_resumed_gained_called]
+[250478172,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:17:47.781 Uid(value=10768):26672:26672 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:47.834 Uid(value=10768):26672:26672 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:17:48.902 Uid(value=10768):26672:26672 I/viewroot_draw_event]
+[VRI[MainActivity]@39824d8,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:49.524 Uid(value=10768):26672:26688 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aeb96c6c in tid 26688 (DefaultDispatch), pid 26672 (com.arlen.app)
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+Processor: '6'
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+Timestamp: 2026-04-25 16:17:49.602518777+0400
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+Process uptime: 4s
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+pid: 26672, tid: 26688, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aeb96c6c
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x0  0000000000000001  x1  00000077aeb8eae0  x2  0000000000000004  x3  001efef4973afb20
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x4  0000000008ef0df2  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x8  54f4da6ce1849015  x9  54f4da6ce1849015  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ef0df2  x14 00000501b418c66f  x15 000000004cec4ec5
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076ba2b8000  x19 00000077aeb903c0
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aeb903c0  x22 000000000000683d  x23 0000000000006830
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x24 00000077aeb903c0  x25 00000077aeb903c0  x26 00000077aeb90728  x27 00000077aeb90780
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aeb90350
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+    lr  00000077aeb96c6c  sp  00000077aeb90340  pc  00000077aeb96c6c  pst 0000000060001000
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:49.874 Uid(value=10768):26735:26735 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:51.237 Uid(value=10768):26777:26777 I/wm_on_create_called]
+[54423906,com.arlen.app.activity.MainActivity,performCreate,25]
+
+[2026-04-25 16:17:51.240 Uid(value=10768):26777:26777 I/wm_on_start_called]
+[54423906,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:17:51.244 Uid(value=10768):26777:26777 I/wm_on_resume_called]
+[54423906,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,3]
+
+[2026-04-25 16:17:51.271 Uid(value=10768):26777:26777 I/wm_on_top_resumed_gained_called]
+[54423906,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:17:51.442 Uid(value=10768):26777:26777 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:51.502 Uid(value=10768):26777:26777 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:17:53.196 Uid(value=10768):26777:26793 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aebd6c6c in tid 26793 (com.arlen.app), pid 26777 (com.arlen.app)
+
+[2026-04-25 16:17:53.543 Uid(value=10768):26864:26864 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:17:53.543 Uid(value=10768):26864:26864 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:17:53.543 Uid(value=10768):26864:26864 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:17:53.543 Uid(value=10768):26864:26864 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:17:53.543 Uid(value=10768):26864:26864 F/DEBUG]
+Processor: '6'
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+Timestamp: 2026-04-25 16:17:53.297084931+0400
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+Process uptime: 3s
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+pid: 26777, tid: 26793, name: com.arlen.app  >>> com.arlen.app <<<
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aebd6c6c
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x0  0000000000000001  x1  00000077aebceae0  x2  0000000000000004  x3  000b7212977302e0
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x4  0000000008ef151e  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x8  2888c40214c4499e  x9  2888c40214c4499e  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ef151e  x14 00000501b6f11b1f  x15 000000004cec4ec5
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076ba9b0000  x19 00000077aebd03c0
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aebd03c0  x22 0000000000006899  x23 0000000000006899
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x24 00000077aebd03c0  x25 00000077aebd03c0  x26 00000077aebd0728  x27 00000077aebd0780
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aebd0350
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+    lr  00000077aebd6c6c  sp  00000077aebd0340  pc  00000077aebd6c6c  pst 0000000060001000
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:53.544 Uid(value=10768):26864:26864 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:54.970 Uid(value=10768):26893:26893 I/wm_on_create_called]
+[113322120,com.arlen.app.activity.MainActivity,performCreate,24]
+
+[2026-04-25 16:17:54.972 Uid(value=10768):26893:26893 I/wm_on_start_called]
+[113322120,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:17:54.978 Uid(value=10768):26893:26893 I/wm_on_resume_called]
+[113322120,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,4]
+
+[2026-04-25 16:17:55.009 Uid(value=10768):26893:26893 I/wm_on_top_resumed_gained_called]
+[113322120,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:17:55.170 Uid(value=10768):26893:26893 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:55.226 Uid(value=10768):26893:26893 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:17:56.757 Uid(value=10768):26893:26893 I/viewroot_draw_event]
+[VRI[MainActivity]@39824d8,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:56.924 Uid(value=10768):26893:26908 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aec98c6c in tid 26908 (DefaultDispatch), pid 26893 (com.arlen.app)
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+Processor: '7'
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+Timestamp: 2026-04-25 16:17:57.006731701+0400
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+Process uptime: 3s
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+pid: 26893, tid: 26908, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aec98c6c
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x0  0000000000000001  x1  00000077aec90ae0  x2  0000000000000004  x3  0036d67897abe560
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x4  0000000008ef1c66  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x8  ed1cb006d8ee5ddb  x9  ed1cb006d8ee5ddb  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ef1c66  x14 00000501b9d4c8e4  x15 000000004cec4ec5
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076bad34000  x19 00000077aec923c0
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aec923c0  x22 0000000000006919  x23 000000000000690d
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x24 00000077aec923c0  x25 00000077aec923c0  x26 00000077aec92728  x27 00000077aec92780
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aec92350
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+    lr  00000077aec98c6c  sp  00000077aec92340  pc  00000077aec98c6c  pst 0000000060001000
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:57.304 Uid(value=10768):26955:26955 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:17:58.817 Uid(value=10768):26981:26981 I/wm_on_create_called]
+[122770762,com.arlen.app.activity.MainActivity,performCreate,35]
+
+[2026-04-25 16:17:58.819 Uid(value=10768):26981:26981 I/wm_on_start_called]
+[122770762,com.arlen.app.activity.MainActivity,handleStartActivity,0]
+
+[2026-04-25 16:17:58.824 Uid(value=10768):26981:26981 I/wm_on_resume_called]
+[122770762,com.arlen.app.activity.MainActivity,RESUME_ACTIVITY,4]
+
+[2026-04-25 16:17:58.856 Uid(value=10768):26981:26981 I/wm_on_top_resumed_gained_called]
+[122770762,com.arlen.app.activity.MainActivity,topStateChangedWhenResumed]
+
+[2026-04-25 16:17:59.029 Uid(value=10768):26981:26981 I/viewroot_draw_event]
+[VRI[MainActivity]@9ae7f00,reportDrawFinished seqId=0]
+
+[2026-04-25 16:17:59.081 Uid(value=10768):26981:26981 I/wm_on_idle_called]
+{com.arlen.app/com.arlen.app.activity.MainActivity}
+
+[2026-04-25 16:18:00.149 Uid(value=10768):26981:26981 I/viewroot_draw_event]
+[VRI[MainActivity]@39824d8,reportDrawFinished seqId=0]
+
+[2026-04-25 16:18:00.762 Uid(value=10768):26981:26997 F/libc]
+Fatal signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x77aeb8ec6c in tid 26997 (com.arlen.app), pid 26981 (com.arlen.app)
+
+[2026-04-25 16:18:01.151 Uid(value=10768):27044:27044 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+Processor: '0'
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+Timestamp: 2026-04-25 16:18:00.853177624+0400
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+Process uptime: 3s
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+pid: 26981, tid: 26997, name: com.arlen.app  >>> com.arlen.app <<<
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+signal 5 (SIGTRAP), code 1 (TRAP_BRKPT), fault addr 0x00000077aeb8ec6c
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x0  0000000000000001  x1  00000077aeb86ae0  x2  0000000000000004  x3  002d100797e66dc0
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x4  0000000008ef23e4  x5  0000000000000000  x6  1f63646b6b60621f  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x8  e470a95cd29820a7  x9  e470a95cd29820a7  x10 0000000000000002  x11 000000003b9ac9ff
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x12 000000000000000a  x13 0000000008ef23e4  x14 00000501bccdeb7c  x15 000000004cec4ec5
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x16 0000007880fa1790  x17 0000007889b67a90  x18 00000076ba018000  x19 00000077aeb883c0
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x20 0000007889df2000  x21 00000077aeb883c0  x22 0000000000006965  x23 0000000000006965
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x24 00000077aeb883c0  x25 00000077aeb883c0  x26 00000077aeb88728  x27 00000077aeb88780
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    x28 00000000000fe000  x29 00000077aeb88350
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+    lr  00000077aeb8ec6c  sp  00000077aeb88340  pc  00000077aeb8ec6c  pst 0000000060001000
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+3 total frames
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+      #00 pc 0000000000001c6c  /data/app/~~82riIk6CvRI5rpYntGrBRQ==/com.arlen.app-EGGeoIMXwTMLlG1-sWeS8Q==/lib/arm64/libarlen-sec.so (watchdog+64)
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+      #01 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:18:01.152 Uid(value=10768):27044:27044 F/DEBUG]
+      #02 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:25:59.141 Uid(value=10768):30522:30539 F/libc]
+Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 30539 (DefaultDispatch), pid 30522 (com.arlen.app)
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Processor: '1'
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Timestamp: 2026-04-25 16:25:59.424947422+0400
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Process uptime: 2s
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+pid: 30522, tid: 30539, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+Abort message: 'No pending exception expected: java.lang.NoSuchMethodError: no native method "Landroid/content/pm/PackageManager;.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+  at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.Class) (Runtime.java:-2)
+  at void java.lang.Runtime.loadLibrary0(java.lang.ClassLoader, java.lang.Class, java.lang.String) (Runtime.java:1095)
+  at void java.lang.Runtime.loadLibrary0(java.lang.Class, java.lang.String) (Runtime.java:1019)
+  at void java.lang.System.loadLibrary(java.lang.String) (System.java:1765)
+  at void com.arlen.app.s.NativeBridge.d() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:-1)
+  at void com.arlen.app.s.NativeBridge.<clinit>() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:8)
+  at java.lang.Object t5.v.b(android.content.Context, t5.p, boolean, c8.c) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:152)
+  at java.lang.Object s5.w2.p(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:206)
+  at void c8.a.g(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:9)
+  at void w8.c0.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:115)
+  at void d9.a.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:118)'
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x0  0000000000000000  x1  000000000000774b  x2  0000000000000006  x3  00000077aaf63a40
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x4  6f646277641f666d  x5  6f646277641f666d  x6  6f646277641f666d  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x8  00000000000000f0  x9  6193108500deb49b  x10 0000000000000001  x11 0000007889b6b450
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x12 00000000011d5218  x13 00000000011d50d8  x14 000005032f7b35a3  x15 000000004cec4ec5
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x16 0000007889bdcdd0  x17 0000007889bbee40  x18 00000076bd5c0000  x19 000000000000773a
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x20 000000000000774b  x21 00000000ffffffff  x22 0000000000000002  x23 b40000779ad60c00
+
+[2026-04-25 16:25:59.805 Uid(value=10768):30555:30555 F/DEBUG]
+    x24 00000077e4642000  x25 0000000000fffff9  x26 000000005a000000  x27 00000077aaf63e80
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+    x28 00000077aaf65740  x29 00000077aaf63ac0
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+    lr  0000007889b555f8  sp  00000077aaf63a40  pc  0000007889b5561c  pst 0000000000001000
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+38 total frames
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #00 pc 00000000000aa61c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #01 pc 00000000008fdf80  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1004) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #02 pc 000000000001654c  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #03 pc 0000000000015a4c  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage()+548) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #04 pc 000000000026e090  /apex/com.android.art/lib64/libart.so (art::Thread::AssertNoPendingException() const+708) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #05 pc 0000000000206bb0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+68) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #06 pc 000000000061bfec  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FindClass(_JNIEnv*, char const*)+836) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #07 pc 0000000000001e40  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/lib/arm64/libarlen-sec.so (JNI_OnLoad+308)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #08 pc 0000000000422afc  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, _jobject*, _jclass*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*)+1560) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #09 pc 00000000000056ac  /apex/com.android.art/lib64/libopenjdkjvm.so (JVM_NativeLoad+368) (BuildId: f01c1daea84be02ad87a85a3f2bd05ec)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #10 pc 0000000000f4f914  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+148)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #11 pc 00000000003e3cb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+312)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #12 pc 00000000003e4dbc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+428)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #13 pc 00000000003f5414  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.System.loadLibrary+84)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #14 pc 00000000006683e8  /apex/com.android.art/lib64/libart.so (nterp_helper+152) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #15 pc 00000000003e83dc  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (com.arlen.app.s.NativeBridge.d+4)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #16 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #17 pc 00000000003e8232  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (com.arlen.app.s.NativeBridge.<clinit>+14)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #19 pc 00000000005e61c0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::InitializeClass(art::Thread*, art::Handle<art::mirror::Class>, bool, bool)+6308) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #20 pc 0000000000276c38  /apex/com.android.art/lib64/libart.so (NterpGetStaticField+692) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #21 pc 000000000066dfb0  /apex/com.android.art/lib64/libart.so (nterp_get_static_field+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #22 pc 0000000000667e60  /apex/com.android.art/lib64/libart.so (nterp_op_sget_object_slow_path+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #23 pc 0000000000786f5a  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (t5.v.b+302)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #24 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #25 pc 0000000000753f52  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (s5.w2.p+410)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #26 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #27 pc 00000000003e39e0  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (c8.a.g+16)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #28 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #29 pc 00000000007dcdc8  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (w8.c0.run+228)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #30 pc 000000000066a0c4  /apex/com.android.art/lib64/libart.so (nterp_helper+7540) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #31 pc 00000000003f07e6  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (d9.a.run+234)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #32 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #33 pc 00000000002708ec  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+220) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #34 pc 00000000004bdfe0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1184) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #35 pc 00000000004bdb30  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #36 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:25:59.806 Uid(value=10768):30555:30555 F/DEBUG]
+      #37 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:26:02.642 Uid(value=10768):30617:30617 F/libc]
+Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 30617 (com.arlen.app), pid 30617 (com.arlen.app)
+
+[2026-04-25 16:26:03.196 Uid(value=10768):30636:30636 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:26:03.196 Uid(value=10768):30636:30636 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+Processor: '7'
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+Timestamp: 2026-04-25 16:26:02.804043422+0400
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+Process uptime: 2s
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+pid: 30617, tid: 30617, name: com.arlen.app  >>> com.arlen.app <<<
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+Abort message: 'No pending exception expected: java.lang.NoSuchMethodError: no native method "Landroid/content/pm/PackageManager;.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+  at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.Class) (Runtime.java:-2)
+  at void java.lang.Runtime.loadLibrary0(java.lang.ClassLoader, java.lang.Class, java.lang.String) (Runtime.java:1095)
+  at void java.lang.Runtime.loadLibrary0(java.lang.Class, java.lang.String) (Runtime.java:1019)
+  at void java.lang.System.loadLibrary(java.lang.String) (System.java:1765)
+  at void com.arlen.app.s.NativeBridge.d() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:-1)
+  at void com.arlen.app.s.NativeBridge.<clinit>() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:8)
+  at java.lang.Object t5.v.b(android.content.Context, t5.p, boolean, c8.c) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:152)
+  at java.lang.Object t5.v.a(android.content.Context, t5.p, boolean, c8.i) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:12)
+  at java.lang.Object s5.w2.p(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:50)
+  at void c8.a.g(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:9)
+  at void w8.c0.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:115)
+  at long w8.l0.x() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:77)
+  at java.lang.Object w8.v.t(a8.i, k8.e) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:99)
+  at void com.arlen.app.application.AppContext.onCreate() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:83)
+  at void android.app.Instrumentation.callApplicationOnCreate(android.app.Application) (Instrumentation.java:1384)
+  at void android.app.ActivityThread.handleBindApplication(android.app.ActivityThread$AppBindData) (ActivityThread.java:8750)
+  at void android.app.ActivityThread.-$$Nest$mhandleBindApplication(android.app.ActivityThread, android.app.ActivityThread$AppBindData) (ActivityThread.java:-1)
+  at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:2873)
+  at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:110)
+  at boolean android.os.Looper.loopOnce(android.os.Looper, long, int) (Looper.java:273)
+  at void android.os.Looper.loop() (Looper.java:363)
+  at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:10060)
+  at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+  at void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run() (RuntimeInit.java:632)
+  at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:975)'
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x0  0000000000000000  x1  0000000000007799  x2  0000000000000006  x3  0000007feb68f540
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x4  6f646277641f666d  x5  6f646277641f666d  x6  6f646277641f666d  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x8  00000000000000f0  x9  ed5e3eaccd974500  x10 0000000000000001  x11 0000007889b6b450
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x12 000000000e8487a8  x13 000000000e848668  x14 000005033231e4fc  x15 000000004cec4ec5
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x16 0000007889bdcdd0  x17 0000007889bbee40  x18 00000078a6074000  x19 0000000000007799
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x20 0000000000007799  x21 00000000ffffffff  x22 0000000000000002  x23 b4000077e8180000
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x24 00000077e4642000  x25 0000000000fffff9  x26 000000005a000000  x27 0000007feb68f980
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    x28 00000078a5405740  x29 0000007feb68f5c0
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+    lr  0000007889b555f8  sp  0000007feb68f540  pc  0000007889b5561c  pst 0000000000001000
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+59 total frames
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #00 pc 00000000000aa61c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #01 pc 00000000008fdf80  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1004) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #02 pc 000000000001654c  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #03 pc 0000000000015a4c  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage()+548) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #04 pc 000000000026e090  /apex/com.android.art/lib64/libart.so (art::Thread::AssertNoPendingException() const+708) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #05 pc 0000000000206bb0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+68) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #06 pc 000000000061bfec  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FindClass(_JNIEnv*, char const*)+836) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #07 pc 0000000000001e40  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/lib/arm64/libarlen-sec.so (JNI_OnLoad+308)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #08 pc 0000000000422afc  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, _jobject*, _jclass*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*)+1560) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #09 pc 00000000000056ac  /apex/com.android.art/lib64/libopenjdkjvm.so (JVM_NativeLoad+368) (BuildId: f01c1daea84be02ad87a85a3f2bd05ec)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #10 pc 0000000000f4f914  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+148)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #11 pc 00000000003e3cb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+312)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #12 pc 00000000003e4dbc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+428)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #13 pc 00000000003f5414  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.System.loadLibrary+84)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #14 pc 00000000006683e8  /apex/com.android.art/lib64/libart.so (nterp_helper+152) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #15 pc 00000000003e83dc  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (com.arlen.app.s.NativeBridge.d+4)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #16 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #17 pc 00000000003e8232  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (com.arlen.app.s.NativeBridge.<clinit>+14)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #19 pc 00000000005e61c0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::InitializeClass(art::Thread*, art::Handle<art::mirror::Class>, bool, bool)+6308) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #20 pc 0000000000276c38  /apex/com.android.art/lib64/libart.so (NterpGetStaticField+692) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #21 pc 000000000066dfb0  /apex/com.android.art/lib64/libart.so (nterp_get_static_field+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #22 pc 0000000000667e60  /apex/com.android.art/lib64/libart.so (nterp_op_sget_object_slow_path+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #23 pc 0000000000786f5a  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (t5.v.b+302)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #24 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #25 pc 0000000000786cf6  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (t5.v.a+22)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #26 pc 0000000000668384  /apex/com.android.art/lib64/libart.so (nterp_helper+52) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #27 pc 0000000000753e1a  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (s5.w2.p+98)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #28 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #29 pc 00000000003e39e0  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (c8.a.g+16)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #30 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #31 pc 00000000007dcdc8  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (w8.c0.run+228)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #32 pc 000000000066a0c4  /apex/com.android.art/lib64/libart.so (nterp_helper+7540) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #33 pc 00000000007ded00  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (w8.l0.x+152)
+
+[2026-04-25 16:26:03.197 Uid(value=10768):30636:30636 F/DEBUG]
+      #34 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #35 pc 00000000007e0870  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (w8.v.t+196)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #36 pc 0000000000668384  /apex/com.android.art/lib64/libart.so (nterp_helper+52) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #37 pc 00000000003e6d5c  /data/app/~~6kJTckYK30UQ9NMPcj22rQ==/com.arlen.app-9mHxtlahs6WIfK3cz2eqEw==/base.apk (offset 0x1000) (com.arlen.app.application.AppContext.onCreate+164)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #38 pc 0000000000736f60  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.Instrumentation.callApplicationOnCreate+48)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #39 pc 00000000006aa490  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.ActivityThread.handleBindApplication+5552)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #40 pc 00000000006a4740  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.ActivityThread.-$$Nest$mhandleBindApplication+48)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #41 pc 00000000006a316c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.ActivityThread$H.handleMessage+8828)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #42 pc 00000000009884f8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Handler.dispatchMessage+152)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #43 pc 00000000009da340  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loopOnce+1952)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #44 pc 00000000009d9b24  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loop+244)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #45 pc 00000000006b3eb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.app.ActivityThread.main+1560)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #46 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #47 pc 00000000002a12b4  /apex/com.android.art/lib64/libart.so (_jobject* art::InvokeMethod<(art::PointerSize)8>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+552) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #48 pc 00000000005ac130  /apex/com.android.art/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*) (.__uniq.165753521025965369065708152063621506277)+32) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #49 pc 0000000000f4f4a4  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+116)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #50 pc 0000000000d5fe7c  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+108)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #51 pc 0000000000d695dc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (com.android.internal.os.ZygoteInit.main+3276)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #52 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #53 pc 00000000002a9e60  /apex/com.android.art/lib64/libart.so (art::JValue art::InvokeWithVarArgs<_jmethodID*>(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+876) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #54 pc 000000000060b158  /apex/com.android.art/lib64/libart.so (art::JNI<true>::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+184) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #55 pc 0000000000107558  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+104) (BuildId: 0bca9d094fda5619be1523083cd310e9)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #56 pc 0000000000132e0c  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+908) (BuildId: 0bca9d094fda5619be1523083cd310e9)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #57 pc 00000000000045f8  /system/bin/app_process64 (main+1304) (BuildId: a794fd51930c7efd2cde1e14d2db11f5)
+
+[2026-04-25 16:26:03.198 Uid(value=10768):30636:30636 F/DEBUG]
+      #58 pc 00000000000a3748  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+120) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:38:27.473 Uid(value=10768):4036:4036 D/ActivityThread]
+com.arlen.app will use render engine as VK
+
+[2026-04-25 16:38:27.478 Uid(value=10768):4036:4036 E/AndroidRuntime]
+FATAL EXCEPTION: main
+Process: com.arlen.app, PID: 4036
+java.lang.VerifyError: Verifier rejected class com.arlen.app.activity.MainActivity: void com.arlen.app.activity.MainActivity.onCreate(android.os.Bundle) failed to verify: void com.arlen.app.activity.MainActivity.onCreate(android.os.Bundle): [0x3] register v0 has type Undefined but expected Reference: android.content.Context (declaration of 'com.arlen.app.activity.MainActivity' appears in /data/app/~~7qiqSSlvIvf78QHaDVPX5Q==/com.arlen.app-B3Jbi1UQCPPR3KFAH7_LuA==/base.apk)
+	at java.lang.Class.newInstance(Native Method)
+	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+	at android.app.Instrumentation.newActivity(Instrumentation.java:1446)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4573)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4941)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:3150)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loopOnce(Looper.java:273)
+	at android.os.Looper.loop(Looper.java:363)
+	at android.app.ActivityThread.main(ActivityThread.java:10060)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
+
+[2026-04-25 16:38:27.482 Uid(value=10768):4036:4053 I/DisplayManager]
+Choreographer implicitly registered for the refresh rate.
+
+[2026-04-25 16:39:47.887 Uid(value=10768):4736:4758 F/libc]
+Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 4758 (DefaultDispatch), pid 4736 (com.arlen.app)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Processor: '6'
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Timestamp: 2026-04-25 16:39:47.979458625+0400
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Process uptime: 1s
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+pid: 4736, tid: 4758, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+Abort message: 'No pending exception expected: java.lang.NoSuchMethodError: no native method "Landroid/content/pm/PackageManager;.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+  at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.Class) (Runtime.java:-2)
+  at void java.lang.Runtime.loadLibrary0(java.lang.ClassLoader, java.lang.Class, java.lang.String) (Runtime.java:1095)
+  at void java.lang.Runtime.loadLibrary0(java.lang.Class, java.lang.String) (Runtime.java:1019)
+  at void java.lang.System.loadLibrary(java.lang.String) (System.java:1765)
+  at void com.arlen.app.s.NativeBridge.d() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:-1)
+  at void com.arlen.app.s.NativeBridge.<clinit>() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:8)
+  at java.lang.Object t5.v.b(android.content.Context, t5.p, boolean, c8.c) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:152)
+  at java.lang.Object s5.w2.p(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:206)
+  at void c8.a.g(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:9)
+  at void w8.c0.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:115)
+  at void d9.a.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:118)'
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x0  0000000000000000  x1  0000000000001296  x2  0000000000000006  x3  0000007740befa40
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x4  6f646277641f666d  x5  6f646277641f666d  x6  6f646277641f666d  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x8  00000000000000f0  x9  07e4a752a517cb5e  x10 0000000000000001  x11 0000007889b6b450
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x12 00000000011d3d58  x13 00000000011d3c18  x14 00000505b1a4ea30  x15 000000004cec4ec5
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x16 0000007889bdcdd0  x17 0000007889bbee40  x18 00000076bd5a8000  x19 0000000000001280
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x20 0000000000001296  x21 00000000ffffffff  x22 0000000000000002  x23 b40000779ad64400
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x24 00000077e4642000  x25 0000000000fffff9  x26 000000005a000000  x27 0000007740befe80
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    x28 0000007740bf1740  x29 0000007740befac0
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+    lr  0000007889b555f8  sp  0000007740befa40  pc  0000007889b5561c  pst 0000000000001000
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+38 total frames
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #00 pc 00000000000aa61c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #01 pc 00000000008fdf80  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1004) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #02 pc 000000000001654c  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #03 pc 0000000000015a4c  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage()+548) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #04 pc 000000000026e090  /apex/com.android.art/lib64/libart.so (art::Thread::AssertNoPendingException() const+708) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #05 pc 0000000000206bb0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+68) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #06 pc 000000000061bfec  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FindClass(_JNIEnv*, char const*)+836) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #07 pc 0000000000001d84  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/lib/arm64/libarlen-sec.so (JNI_OnLoad+308)
+
+[2026-04-25 16:39:48.252 Uid(value=10768):4763:4763 F/DEBUG]
+      #08 pc 0000000000422afc  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, _jobject*, _jclass*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*)+1560) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #09 pc 00000000000056ac  /apex/com.android.art/lib64/libopenjdkjvm.so (JVM_NativeLoad+368) (BuildId: f01c1daea84be02ad87a85a3f2bd05ec)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #10 pc 0000000000f4f914  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+148)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #11 pc 00000000003e3cb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+312)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #12 pc 00000000003e4dbc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+428)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #13 pc 00000000003f5414  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.System.loadLibrary+84)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #14 pc 00000000006683e8  /apex/com.android.art/lib64/libart.so (nterp_helper+152) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #15 pc 00000000003e8250  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (com.arlen.app.s.NativeBridge.d+4)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #16 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #17 pc 00000000003e80a6  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (com.arlen.app.s.NativeBridge.<clinit>+14)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #19 pc 00000000005e61c0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::InitializeClass(art::Thread*, art::Handle<art::mirror::Class>, bool, bool)+6308) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #20 pc 0000000000276c38  /apex/com.android.art/lib64/libart.so (NterpGetStaticField+692) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #21 pc 000000000066dfb0  /apex/com.android.art/lib64/libart.so (nterp_get_static_field+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #22 pc 0000000000667e60  /apex/com.android.art/lib64/libart.so (nterp_op_sget_object_slow_path+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #23 pc 0000000000786dce  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (t5.v.b+302)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #24 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #25 pc 0000000000753dc6  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (s5.w2.p+410)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #26 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #27 pc 00000000003e3824  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (c8.a.g+16)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #28 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #29 pc 00000000007dcc3c  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (w8.c0.run+228)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #30 pc 000000000066a0c4  /apex/com.android.art/lib64/libart.so (nterp_helper+7540) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #31 pc 00000000003f065a  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (d9.a.run+234)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #32 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #33 pc 00000000002708ec  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+220) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #34 pc 00000000004bdfe0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1184) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #35 pc 00000000004bdb30  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #36 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:39:48.253 Uid(value=10768):4763:4763 F/DEBUG]
+      #37 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:39:52.056 Uid(value=10768):4846:4859 F/libc]
+Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 4859 (DefaultDispatch), pid 4846 (com.arlen.app)
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+Processor: '6'
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+Timestamp: 2026-04-25 16:39:52.183568779+0400
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+Process uptime: 1s
+
+[2026-04-25 16:39:52.521 Uid(value=10768):4865:4865 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+pid: 4846, tid: 4859, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+Abort message: 'No pending exception expected: java.lang.NoSuchMethodError: no native method "Landroid/content/pm/PackageManager;.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+  at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.Class) (Runtime.java:-2)
+  at void java.lang.Runtime.loadLibrary0(java.lang.ClassLoader, java.lang.Class, java.lang.String) (Runtime.java:1095)
+  at void java.lang.Runtime.loadLibrary0(java.lang.Class, java.lang.String) (Runtime.java:1019)
+  at void java.lang.System.loadLibrary(java.lang.String) (System.java:1765)
+  at void com.arlen.app.s.NativeBridge.d() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:-1)
+  at void com.arlen.app.s.NativeBridge.<clinit>() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:8)
+  at java.lang.Object t5.v.b(android.content.Context, t5.p, boolean, c8.c) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:152)
+  at java.lang.Object s5.w2.p(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:206)
+  at void c8.a.g(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:9)
+  at void w8.c0.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:115)
+  at void d9.a.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:118)'
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x0  0000000000000000  x1  00000000000012fb  x2  0000000000000006  x3  0000007740ff9a40
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x4  6f646277641f666d  x5  6f646277641f666d  x6  6f646277641f666d  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x8  00000000000000f0  x9  d7ce3ea0539e4421  x10 0000000000000001  x11 0000007889b6b450
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x12 00000000011c5128  x13 00000000011c4fe8  x14 00000505b4dff60b  x15 000000004cec4ec5
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x16 0000007889bdcdd0  x17 0000007889bbee40  x18 00000076bd000000  x19 00000000000012ee
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x20 00000000000012fb  x21 00000000ffffffff  x22 0000000000000002  x23 b40000779ad62800
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x24 00000077e4642000  x25 0000000000fffff9  x26 000000005a000000  x27 0000007740ff9e80
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    x28 0000007740ffb740  x29 0000007740ff9ac0
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+    lr  0000007889b555f8  sp  0000007740ff9a40  pc  0000007889b5561c  pst 0000000000001000
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+38 total frames
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #00 pc 00000000000aa61c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #01 pc 00000000008fdf80  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1004) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #02 pc 000000000001654c  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #03 pc 0000000000015a4c  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage()+548) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #04 pc 000000000026e090  /apex/com.android.art/lib64/libart.so (art::Thread::AssertNoPendingException() const+708) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #05 pc 0000000000206bb0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+68) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #06 pc 000000000061bfec  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FindClass(_JNIEnv*, char const*)+836) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #07 pc 0000000000001d84  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/lib/arm64/libarlen-sec.so (JNI_OnLoad+308)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #08 pc 0000000000422afc  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, _jobject*, _jclass*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*)+1560) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #09 pc 00000000000056ac  /apex/com.android.art/lib64/libopenjdkjvm.so (JVM_NativeLoad+368) (BuildId: f01c1daea84be02ad87a85a3f2bd05ec)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #10 pc 0000000000f4f914  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+148)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #11 pc 00000000003e3cb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+312)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #12 pc 00000000003e4dbc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+428)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #13 pc 00000000003f5414  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.System.loadLibrary+84)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #14 pc 00000000006683e8  /apex/com.android.art/lib64/libart.so (nterp_helper+152) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #15 pc 00000000003e8250  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (com.arlen.app.s.NativeBridge.d+4)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #16 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #17 pc 00000000003e80a6  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (com.arlen.app.s.NativeBridge.<clinit>+14)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #19 pc 00000000005e61c0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::InitializeClass(art::Thread*, art::Handle<art::mirror::Class>, bool, bool)+6308) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #20 pc 0000000000276c38  /apex/com.android.art/lib64/libart.so (NterpGetStaticField+692) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #21 pc 000000000066dfb0  /apex/com.android.art/lib64/libart.so (nterp_get_static_field+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #22 pc 0000000000667e60  /apex/com.android.art/lib64/libart.so (nterp_op_sget_object_slow_path+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #23 pc 0000000000786dce  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (t5.v.b+302)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #24 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #25 pc 0000000000753dc6  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (s5.w2.p+410)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #26 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #27 pc 00000000003e3824  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (c8.a.g+16)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #28 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #29 pc 00000000007dcc3c  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (w8.c0.run+228)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #30 pc 000000000066a0c4  /apex/com.android.art/lib64/libart.so (nterp_helper+7540) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #31 pc 00000000003f065a  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (d9.a.run+234)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #32 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #33 pc 00000000002708ec  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+220) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #34 pc 00000000004bdfe0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1184) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #35 pc 00000000004bdb30  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #36 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:39:52.522 Uid(value=10768):4865:4865 F/DEBUG]
+      #37 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:41:31.408 Uid(value=10768):5202:5218 F/libc]
+Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 5218 (DefaultDispatch), pid 5202 (com.arlen.app)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Processor: '6'
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Timestamp: 2026-04-25 16:41:31.489416400+0400
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Process uptime: 1s
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+pid: 5202, tid: 5218, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+Abort message: 'No pending exception expected: java.lang.NoSuchMethodError: no native method "Landroid/content/pm/PackageManager;.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+  at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.Class) (Runtime.java:-2)
+  at void java.lang.Runtime.loadLibrary0(java.lang.ClassLoader, java.lang.Class, java.lang.String) (Runtime.java:1095)
+  at void java.lang.Runtime.loadLibrary0(java.lang.Class, java.lang.String) (Runtime.java:1019)
+  at void java.lang.System.loadLibrary(java.lang.String) (System.java:1765)
+  at void com.arlen.app.s.NativeBridge.d() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:-1)
+  at void com.arlen.app.s.NativeBridge.<clinit>() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:8)
+  at java.lang.Object t5.v.b(android.content.Context, t5.p, boolean, c8.c) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:152)
+  at java.lang.Object s5.w2.p(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:206)
+  at void c8.a.g(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:9)
+  at void w8.c0.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:115)
+  at void d9.a.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:118)'
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x0  0000000000000000  x1  0000000000001462  x2  0000000000000006  x3  00000077aaf63a40
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x4  6f646277641f666d  x5  6f646277641f666d  x6  6f646277641f666d  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x8  00000000000000f0  x9  6a0f1749edb7dec4  x10 0000000000000001  x11 0000007889b6b450
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x12 00000000011d4fb8  x13 00000000011d4e78  x14 0000050601dbd694  x15 000000004cec4ec5
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x16 0000007889bdcdd0  x17 0000007889bbee40  x18 00000076bd914000  x19 0000000000001452
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x20 0000000000001462  x21 00000000ffffffff  x22 0000000000000002  x23 b40000779ad60c00
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x24 00000077e4642000  x25 0000000000fffff9  x26 000000005a000000  x27 00000077aaf63e80
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    x28 00000077aaf65740  x29 00000077aaf63ac0
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+    lr  0000007889b555f8  sp  00000077aaf63a40  pc  0000007889b5561c  pst 0000000000001000
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+38 total frames
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #00 pc 00000000000aa61c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #01 pc 00000000008fdf80  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1004) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #02 pc 000000000001654c  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #03 pc 0000000000015a4c  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage()+548) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #04 pc 000000000026e090  /apex/com.android.art/lib64/libart.so (art::Thread::AssertNoPendingException() const+708) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #05 pc 0000000000206bb0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+68) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.737 Uid(value=10768):5225:5225 F/DEBUG]
+      #06 pc 000000000061bfec  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FindClass(_JNIEnv*, char const*)+836) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #07 pc 0000000000001d84  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/lib/arm64/libarlen-sec.so (JNI_OnLoad+308)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #08 pc 0000000000422afc  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, _jobject*, _jclass*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*)+1560) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #09 pc 00000000000056ac  /apex/com.android.art/lib64/libopenjdkjvm.so (JVM_NativeLoad+368) (BuildId: f01c1daea84be02ad87a85a3f2bd05ec)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #10 pc 0000000000f4f914  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+148)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #11 pc 00000000003e3cb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+312)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #12 pc 00000000003e4dbc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+428)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #13 pc 00000000003f5414  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.System.loadLibrary+84)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #14 pc 00000000006683e8  /apex/com.android.art/lib64/libart.so (nterp_helper+152) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #15 pc 00000000003e8250  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (com.arlen.app.s.NativeBridge.d+4)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #16 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #17 pc 00000000003e80a6  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (com.arlen.app.s.NativeBridge.<clinit>+14)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #19 pc 00000000005e61c0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::InitializeClass(art::Thread*, art::Handle<art::mirror::Class>, bool, bool)+6308) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #20 pc 0000000000276c38  /apex/com.android.art/lib64/libart.so (NterpGetStaticField+692) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #21 pc 000000000066dfb0  /apex/com.android.art/lib64/libart.so (nterp_get_static_field+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #22 pc 0000000000667e60  /apex/com.android.art/lib64/libart.so (nterp_op_sget_object_slow_path+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #23 pc 0000000000786dce  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (t5.v.b+302)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #24 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #25 pc 0000000000753dc6  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (s5.w2.p+410)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #26 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #27 pc 00000000003e3824  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (c8.a.g+16)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #28 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #29 pc 00000000007dcc3c  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (w8.c0.run+228)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #30 pc 000000000066a0c4  /apex/com.android.art/lib64/libart.so (nterp_helper+7540) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #31 pc 00000000003f065a  /data/app/~~JqfdKJmjdMUJA-sp5OpsMQ==/com.arlen.app-_6mZUAw6cxAPhHOLMtW0WA==/base.apk (d9.a.run+234)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #32 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #33 pc 00000000002708ec  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+220) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #34 pc 00000000004bdfe0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1184) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #35 pc 00000000004bdb30  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #36 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:41:31.738 Uid(value=10768):5225:5225 F/DEBUG]
+      #37 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:42:27.913 Uid(value=10768):5535:5551 F/libc]
+Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 5551 (DefaultDispatch), pid 5535 (com.arlen.app)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Build fingerprint: 'samsung/a16nsxx/a16:16/BP2A.250605.031.A3/A165FXXS8CZB3:user/release-keys'
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Revision: '4'
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+ABI: 'arm64'
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Processor: '6'
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Timestamp: 2026-04-25 16:42:28.001410558+0400
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Process uptime: 1s
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Cmdline: com.arlen.app
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+pid: 5535, tid: 5551, name: DefaultDispatch  >>> com.arlen.app <<<
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+uid: 10768
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+Abort message: 'No pending exception expected: java.lang.NoSuchMethodError: no native method "Landroid/content/pm/PackageManager;.getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;"
+  at java.lang.String java.lang.Runtime.nativeLoad(java.lang.String, java.lang.ClassLoader, java.lang.Class) (Runtime.java:-2)
+  at void java.lang.Runtime.loadLibrary0(java.lang.ClassLoader, java.lang.Class, java.lang.String) (Runtime.java:1095)
+  at void java.lang.Runtime.loadLibrary0(java.lang.Class, java.lang.String) (Runtime.java:1019)
+  at void java.lang.System.loadLibrary(java.lang.String) (System.java:1765)
+  at void com.arlen.app.s.NativeBridge.d() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:-1)
+  at void com.arlen.app.s.NativeBridge.<clinit>() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:8)
+  at java.lang.Object t5.v.b(android.content.Context, t5.p, boolean, c8.c) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:152)
+  at java.lang.Object s5.w2.p(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:206)
+  at void c8.a.g(java.lang.Object) (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:9)
+  at void w8.c0.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:115)
+  at void d9.a.run() (r8-map-id-ad8c8017b72092db2ef87dac9cb61370cea5326a2ad239ae9c493da17f0fc6af:118)'
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x0  0000000000000000  x1  00000000000015af  x2  0000000000000006  x3  0000007740ff9a40
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x4  6f646277641f666d  x5  6f646277641f666d  x6  6f646277641f666d  x7  7f7f7f7f7f7f7f7f
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x8  00000000000000f0  x9  2eeb742763ac5a39  x10 0000000000000001  x11 0000007889b6b450
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x12 00000000011cb0c8  x13 00000000011caf88  x14 000005062da45c7b  x15 000000004cec4ec5
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x16 0000007889bdcdd0  x17 0000007889bbee40  x18 00000076bd06c000  x19 000000000000159f
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x20 00000000000015af  x21 00000000ffffffff  x22 0000000000000002  x23 b40000779ad62800
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x24 00000077e4642000  x25 0000000000fffff9  x26 000000005a000000  x27 0000007740ff9e80
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    x28 0000007740ffb740  x29 0000007740ff9ac0
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+    lr  0000007889b555f8  sp  0000007740ff9a40  pc  0000007889b5561c  pst 0000000000001000
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+38 total frames
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+backtrace:
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #00 pc 00000000000aa61c  /apex/com.android.runtime/lib64/bionic/libc.so (abort+156) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #01 pc 00000000008fdf80  /apex/com.android.art/lib64/libart.so (art::Runtime::Abort(char const*)+1004) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #02 pc 000000000001654c  /apex/com.android.art/lib64/libbase.so (android::base::SetAborter(std::__1::function<void (char const*)>&&)::$_0::__invoke(char const*)+80) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #03 pc 0000000000015a4c  /apex/com.android.art/lib64/libbase.so (android::base::LogMessage::~LogMessage()+548) (BuildId: 4d7605789d21176764345a0353194396)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #04 pc 000000000026e090  /apex/com.android.art/lib64/libart.so (art::Thread::AssertNoPendingException() const+708) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #05 pc 0000000000206bb0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+68) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #06 pc 000000000061bfec  /apex/com.android.art/lib64/libart.so (art::JNI<false>::FindClass(_JNIEnv*, char const*)+836) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #07 pc 0000000000001d84  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/lib/arm64/libarlen-sec.so (JNI_OnLoad+308)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #08 pc 0000000000422afc  /apex/com.android.art/lib64/libart.so (art::JavaVMExt::LoadNativeLibrary(_JNIEnv*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, _jobject*, _jclass*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>*)+1560) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #09 pc 00000000000056ac  /apex/com.android.art/lib64/libopenjdkjvm.so (JVM_NativeLoad+368) (BuildId: f01c1daea84be02ad87a85a3f2bd05ec)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #10 pc 0000000000f4f914  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+148)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #11 pc 00000000003e3cb8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+312)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #12 pc 00000000003e4dbc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Runtime.loadLibrary0+428)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #13 pc 00000000003f5414  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.System.loadLibrary+84)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #14 pc 00000000006683e8  /apex/com.android.art/lib64/libart.so (nterp_helper+152) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #15 pc 00000000003e8250  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (com.arlen.app.s.NativeBridge.d+4)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #16 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #17 pc 00000000003e80a6  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (com.arlen.app.s.NativeBridge.<clinit>+14)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #18 pc 00000000002ab260  /apex/com.android.art/lib64/libart.so (art_quick_invoke_static_stub+640) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #19 pc 00000000005e61c0  /apex/com.android.art/lib64/libart.so (art::ClassLinker::InitializeClass(art::Thread*, art::Handle<art::mirror::Class>, bool, bool)+6308) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #20 pc 0000000000276c38  /apex/com.android.art/lib64/libart.so (NterpGetStaticField+692) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #21 pc 000000000066dfb0  /apex/com.android.art/lib64/libart.so (nterp_get_static_field+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #22 pc 0000000000667e60  /apex/com.android.art/lib64/libart.so (nterp_op_sget_object_slow_path+48) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #23 pc 0000000000786dce  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (t5.v.b+302)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #24 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #25 pc 0000000000753dc6  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (s5.w2.p+410)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #26 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #27 pc 00000000003e3824  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (c8.a.g+16)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #28 pc 00000000006692a4  /apex/com.android.art/lib64/libart.so (nterp_helper+3924) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #29 pc 00000000007dcc3c  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (w8.c0.run+228)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #30 pc 000000000066a0c4  /apex/com.android.art/lib64/libart.so (nterp_helper+7540) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #31 pc 00000000003f065a  /data/app/~~ontrHBrdSmPXlWLn-P0e2g==/com.arlen.app-_YZnf1_4NG1172fng44ygw==/base.apk (d9.a.run+234)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #32 pc 00000000002aaf94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #33 pc 00000000002708ec  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+220) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #34 pc 00000000004bdfe0  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1184) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.357 Uid(value=10768):5557:5557 F/DEBUG]
+      #35 pc 00000000004bdb30  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: a1fcb66a9fb3fa9071e8a42dcf9cd5ea)
+
+[2026-04-25 16:42:28.358 Uid(value=10768):5557:5557 F/DEBUG]
+      #36 pc 00000000000bae5c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+236) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
+[2026-04-25 16:42:28.358 Uid(value=10768):5557:5557 F/DEBUG]
+      #37 pc 00000000000ad6f0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 39d1497b7605b6389fe7c9e36a557060)
+
